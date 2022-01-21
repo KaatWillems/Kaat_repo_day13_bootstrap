@@ -1,0 +1,38 @@
+body{
+    
+    margin:0; 
+    padding:20px; 
+    box-sizing:border-box;
+    text:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.container {
+    display:grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container__green {
+background-color: green;
+}
+
+.container__yellow{
+    background-color: yellow;
+}
+
+
+.container__blue {
+    background-color: blue;;
+}
+
+
+.container__red{
+    background-color: red;
+}
+
+/* .grid-col-span-2{
+    grid-column: span 2;
+} */
